@@ -1,0 +1,29 @@
+DYNAMICS-AWARE EVOLUTIONARY PROFILING: ML VALIDATION RESULTS
+============================================================
+
+Total Residues used for ML: 1642
+  - Pathogenic (>0.90): 1346
+  - Benign (<0.20): 296
+
+1. RANDOM FOREST FEATURE IMPORTANCE
+-----------------------------------
+Model Accuracy (Pathogenicity Prediction): 91.28%
+
+Feature Rankings (Relative Importance):
+  RCS (Rigid-Cons): 0.2848
+  Raw Conservation: 0.2845
+  Raw Dynamics: 0.1250
+  DCopS (Dynamic-Coup): 0.1029
+  RCopS (Rigid-Coup): 0.1024
+  DCS (Dynamic-Cons): 0.1004
+
+2. INDEPENDENCE CHECK (SPEARMAN CORRELATION MATRIX)
+-------------------------------------------------
+               Conservation  Dynamics     DCS   DCopS     RCS   RCopS  Pathogenicity
+Conservation         1.0000   -0.2571  0.2201 -0.1013  0.9416  0.0913         0.5822
+Dynamics            -0.2571    1.0000  0.7834  0.4508 -0.4354 -0.2275        -0.2921
+DCS                  0.2201    0.7834  1.0000  0.3974  0.0362 -0.1421         0.0155
+DCopS               -0.1013    0.4508  0.3974  1.0000 -0.1772  0.5040        -0.1317
+RCS                  0.9416   -0.4354  0.0362 -0.1772  1.0000  0.1559         0.5889
+RCopS                0.0913   -0.2275 -0.1421  0.5040  0.1559  1.0000         0.1187
+Pathogenicity        0.5822   -0.2921  0.0155 -0.1317  0.5889  0.1187         1.0000

@@ -1,0 +1,15 @@
+--- STATISTICAL VALIDATION: RCS vs CLINVAR ---
+
+Total Variants: 737
+
+RCS High Constraint Threshold: 6.0
+
+3. Cryptic Pathogenic Discoveries (RCS > 6.0, AM < 0.6):
+
+   Count: 3 variants
+
+   Top Examples:
+
+   - NARS1 p.Thr17Met: RCS=7.96, AM=0.09
+   - NARS1 p.Lys60Thr: RCS=7.82, AM=0.53
+   - SPRTN p.Tyr117Cys: RCS=6.18, AM=0.47

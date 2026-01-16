@@ -1,0 +1,16 @@
+DYNAMICS-AWARE EVOLUTIONARY PROFILING: UNSUPERVISED PCA
+=======================================================
+
+Total Residues Analyzed: 5561
+Features Used: conservation, Norm_Dynamics, Dynamic_Conserved_Score_0_10, Dynamics_Coupling_Score_0_10, Rigid_Conserved_Score_0_10, Rigid_Coupling_Score_0_10
+
+
+PCA VARIANCE EXPLAINED
+----------------------
+PC1 Variance: 0.3803
+PC2 Variance: 0.2989
+Total Variance Explained (PC1+PC2): 0.6792
+
+Interpretation: This map visualizes the continuous biophysical space occupied by the proteome.
+PC1 typically separates Conserved vs Variable residues.
+PC2 typically separates Rigid vs Dynamic residues.

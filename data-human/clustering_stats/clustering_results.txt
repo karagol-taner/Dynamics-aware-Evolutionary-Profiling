@@ -1,0 +1,17 @@
+CLUSTERING ANALYSIS RESULTS (TRAIN=GLOBAL, TEST=AM)
+===================================================
+
+Cluster Centroids (Global Definition):
+         conservation  Norm_Dynamics   Product
+Cluster                                       
+0            0.297030       0.084831  0.025197
+1            0.325903       0.313017  0.102013
+2            0.713204       0.096613  0.068905
+3            0.551998       0.668052  0.368764
+
+Pathogenicity by Cluster (Validation Set):
+                            count      mean       std       min       25%       50%       75%       max
+Label                                                                                                  
+Dynamic-Conserved (Hinge)   495.0  0.542483  0.298526  0.096400  0.254413  0.510726  0.841526  0.999684
+Rigid-Conserved (Core)     3455.0  0.758671  0.253025  0.095500  0.610958  0.861553  0.962950  0.999958
+Rigid-Variable (Spacer)    6263.0  0.545483  0.264666  0.093584  0.303568  0.527189  0.781842  0.999774

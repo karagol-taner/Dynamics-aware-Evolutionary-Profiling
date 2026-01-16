@@ -1,0 +1,15 @@
+--- STATISTICAL VALIDATION: RAW DCS vs CLINVAR ---
+
+Total Variants: 737
+
+DCS High Constraint Threshold: 0.95
+
+3. Cryptic Pathogenic Discoveries (DCS > 0.95, AM < 0.6):
+
+   Count: 3 variants
+
+   Top Examples:
+
+   - NARS1 p.Thr17Met: DCS=5.78, AM=0.09
+   - NARS1 p.Lys60Thr: DCS=4.01, AM=0.53
+   - PGK1 p.Lys30Thr: DCS=3.26, AM=0.47

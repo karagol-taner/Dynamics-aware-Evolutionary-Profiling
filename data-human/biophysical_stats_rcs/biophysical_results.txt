@@ -1,0 +1,35 @@
+BIOPHYSICAL ANALYSIS RESULTS
+============================
+
+--- DCS (Dynamic_Conserved_Score_0_10) ---
+Kruskal-Wallis Test (AA Bias): P = 1.0558e-61
+Top 3 Enriched Amino Acids:
+  G: 1.6702
+  P: 1.4689
+  D: 1.3812
+
+--- DCopS (Dynamics_Coupling_Score_0_10) ---
+Kruskal-Wallis Test (AA Bias): P = nan
+Top 3 Enriched Amino Acids:
+  W: 1.8294
+  Q: 1.6640
+  S: 1.6572
+
+--- RCS (Rigid_Conserved_Score_0_10) ---
+Kruskal-Wallis Test (AA Bias): P = 8.9048e-112
+Top 3 Enriched Amino Acids:
+  W: 5.8846
+  C: 5.5742
+  F: 5.4143
+
+--- RCopS (Rigid_Coupling_Score_0_10) ---
+Kruskal-Wallis Test (AA Bias): P = nan
+Top 3 Enriched Amino Acids:
+  C: 3.0323
+  W: 2.8511
+  V: 2.6933
+
+--- Phase Space Analysis ---
+Danger Zone (High Cons/High Dyn) N=208
+Buffer Zone (Low Cons/High Dyn) N=383
+Mann-Whitney U Test (Pathogenicity: Danger > Buffer): P = 1.5842e-11

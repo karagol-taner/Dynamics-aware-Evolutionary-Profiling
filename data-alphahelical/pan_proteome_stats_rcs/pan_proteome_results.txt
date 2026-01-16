@@ -1,0 +1,41 @@
+DYNAMICS-AWARE EVOLUTIONARY PROFILING: PAN-PROTEOME STATISTICS
+============================================================
+
+Total Proteins Analyzed: 75
+Total Residues Analyzed: 21023
+
+--- Dynamic Conserved Score (DCS) ---
+Mean: 0.7387
+Median: 0.3394
+Standard Deviation: 1.2183
+95th Percentile (High Confidence): 2.7663
+99th Percentile (Top Hits): 6.8167
+
+--- Dynamics Coupling Score (DCopS) ---
+Mean: 1.3737
+Median: 0.8863
+95th Percentile: 4.4484
+
+--- Rigid Conserved Score (RCS) ---
+Mean: 4.0330
+Median: 3.5220
+95th Percentile: 8.6075
+
+--- Rigid Coupling Score (RCopS) ---
+Mean: 2.3324
+Median: 1.7309
+95th Percentile: 6.6371
+
+--- Top 5 Amino Acids by Mean DCS ---
+M: 1.1206
+G: 1.0552
+P: 0.9633
+D: 0.9204
+N: 0.8785
+
+--- Top 5 Amino Acids by Mean RCS ---
+W: 4.8642
+C: 4.6321
+L: 4.5945
+F: 4.5380
+G: 4.4641

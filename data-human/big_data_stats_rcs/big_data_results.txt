@@ -1,0 +1,19 @@
+BIG DATA ANALYSIS RESULTS (PAN-PROTEOME)
+========================================
+
+--- Top 5 Proteins by Dynamic Conservation (Soft Machines) ---
+Label_ID  Mean_DCS  Dynamic_Density_Pct
+  O43776  3.507093            27.333333
+  Q13188  2.831236            13.207547
+  P26038  2.473034             7.777778
+  P12931  2.433290            13.888889
+  Q9H040  2.255209             8.000000
+
+--- Top 5 Proteins by Rigid Conservation (Structural Rocks) ---
+Label_ID  Mean_RCS  Rigid_Density_Pct
+  Q00987  7.346877          88.421053
+  Q08380  7.301787          85.593220
+  P37173  7.193018          83.636364
+  O43776  7.065107          84.000000
+  Q13188  6.894689          83.018868
+

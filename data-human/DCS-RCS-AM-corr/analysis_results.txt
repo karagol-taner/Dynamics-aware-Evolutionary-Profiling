@@ -1,0 +1,356 @@
+=== Running Global Analysis ===
+
+
+-------------------------------------------------------
+
+Correlation: DCS (Global) vs Mean AM Pathogenicity
+
+-------------------------------------------------------
+
+Spearman rho: -0.0291
+
+P-value: 0.004252
+
+N (Residues): 9652
+
+`geom_smooth()` using formula = 'y ~ s(x, bs = "cs")'
+`geom_smooth()` using formula = 'y ~ s(x, bs = "cs")'
+
+-------------------------------------------------------
+
+Correlation: DCopS (Global) vs Mean AM Pathogenicity
+
+-------------------------------------------------------
+
+Spearman rho: -0.1404
+
+P-value: 3.761e-25
+
+N (Residues): 5391
+
+`geom_smooth()` using formula = 'y ~ s(x, bs = "cs")'
+`geom_smooth()` using formula = 'y ~ s(x, bs = "cs")'
+
+-------------------------------------------------------
+
+Correlation: RCS (Global) vs Mean AM Pathogenicity
+
+-------------------------------------------------------
+
+Spearman rho: 0.4991
+
+P-value: 0
+
+N (Residues): 9652
+
+`geom_smooth()` using formula = 'y ~ s(x, bs = "cs")'
+`geom_smooth()` using formula = 'y ~ s(x, bs = "cs")'
+
+-------------------------------------------------------
+
+Correlation: RCopS (Global) vs Mean AM Pathogenicity
+
+-------------------------------------------------------
+
+Spearman rho: 0.1052
+
+P-value: 2.996e-15
+
+N (Residues): 5594
+
+`geom_smooth()` using formula = 'y ~ s(x, bs = "cs")'
+`geom_smooth()` using formula = 'y ~ s(x, bs = "cs")'
+
+=== Running Focused Analysis (Scores < 2.5) ===
+
+
+-------------------------------------------------------
+
+Correlation: DCS (<2.5) vs Mean AM Pathogenicity
+
+-------------------------------------------------------
+
+Spearman rho: -0.0319
+
+P-value: 0.002664
+
+N (Residues): 8840
+
+`geom_smooth()` using formula = 'y ~ s(x, bs = "cs")'
+`geom_smooth()` using formula = 'y ~ s(x, bs = "cs")'
+
+-------------------------------------------------------
+
+Correlation: DCopS (<2.5) vs Mean AM Pathogenicity
+
+-------------------------------------------------------
+
+Spearman rho: -0.1566
+
+P-value: 2.286e-26
+
+N (Residues): 4551
+
+`geom_smooth()` using formula = 'y ~ s(x, bs = "cs")'
+`geom_smooth()` using formula = 'y ~ s(x, bs = "cs")'
+
+-------------------------------------------------------
+
+Correlation: RCS (<2.5) vs Mean AM Pathogenicity
+
+-------------------------------------------------------
+
+Spearman rho: 0.1213
+
+P-value: 1.067e-09
+
+N (Residues): 2514
+
+`geom_smooth()` using formula = 'y ~ s(x, bs = "cs")'
+`geom_smooth()` using formula = 'y ~ s(x, bs = "cs")'
+
+-------------------------------------------------------
+
+Correlation: RCopS (<2.5) vs Mean AM Pathogenicity
+
+-------------------------------------------------------
+
+Spearman rho: 0.071
+
+P-value: 1.443e-05
+
+N (Residues): 3722
+
+`geom_smooth()` using formula = 'y ~ s(x, bs = "cs")'
+`geom_smooth()` using formula = 'y ~ s(x, bs = "cs")'
+
+=== Running Extreme Analysis (Scores < 0.5) ===
+
+
+-------------------------------------------------------
+
+Correlation: DCS (<0.5) vs Mean AM Pathogenicity
+
+-------------------------------------------------------
+
+Spearman rho: -0.0714
+
+P-value: 3.012e-06
+
+N (Residues): 4272
+
+`geom_smooth()` using formula = 'y ~ s(x, bs = "cs")'
+`geom_smooth()` using formula = 'y ~ s(x, bs = "cs")'
+
+-------------------------------------------------------
+
+Correlation: DCopS (<0.5) vs Mean AM Pathogenicity
+
+-------------------------------------------------------
+
+Spearman rho: -0.1781
+
+P-value: 3.113e-15
+
+N (Residues): 1933
+
+`geom_smooth()` using formula = 'y ~ s(x, bs = "cs")'
+`geom_smooth()` using formula = 'y ~ s(x, bs = "cs")'
+
+-------------------------------------------------------
+
+Correlation: RCS (<0.5) vs Mean AM Pathogenicity
+
+-------------------------------------------------------
+
+Spearman rho: 0.0575
+
+P-value: 0.7106
+
+N (Residues): 44
+
+`geom_smooth()` using formula = 'y ~ s(x, bs = "cs")'
+`geom_smooth()` using formula = 'y ~ s(x, bs = "cs")'
+
+-------------------------------------------------------
+
+Correlation: RCopS (<0.5) vs Mean AM Pathogenicity
+
+-------------------------------------------------------
+
+Spearman rho: -0.0583
+
+P-value: 0.0486
+
+N (Residues): 1146
+
+`geom_smooth()` using formula = 'y ~ s(x, bs = "cs")'
+`geom_smooth()` using formula = 'y ~ s(x, bs = "cs")'
+
+=== Running Global Binned Analysis ===
+
+
+-------------------------------------------------------
+
+Kruskal-Wallis Test for DCS (Global) Bins
+
+-------------------------------------------------------
+
+
+	Kruskal-Wallis rank sum test
+
+data:  mean_am_pathogenicity by Score_Bin
+Kruskal-Wallis chi-squared = 29.442, df = 3, p-value = 1.808e-06
+
+
+-------------------------------------------------------
+
+Kruskal-Wallis Test for DCopS (Global) Bins
+
+-------------------------------------------------------
+
+
+	Kruskal-Wallis rank sum test
+
+data:  mean_am_pathogenicity by Score_Bin
+Kruskal-Wallis chi-squared = 135.53, df = 3, p-value < 2.2e-16
+
+
+-------------------------------------------------------
+
+Kruskal-Wallis Test for RCS (Global) Bins
+
+-------------------------------------------------------
+
+
+	Kruskal-Wallis rank sum test
+
+data:  mean_am_pathogenicity by Score_Bin
+Kruskal-Wallis chi-squared = 2211.4, df = 3, p-value < 2.2e-16
+
+
+-------------------------------------------------------
+
+Kruskal-Wallis Test for RCopS (Global) Bins
+
+-------------------------------------------------------
+
+
+	Kruskal-Wallis rank sum test
+
+data:  mean_am_pathogenicity by Score_Bin
+Kruskal-Wallis chi-squared = 66.926, df = 3, p-value = 1.942e-14
+
+
+=== Running Focused Binned Analysis (< 2.5) ===
+
+
+-------------------------------------------------------
+
+Kruskal-Wallis Test for DCS (<2.5) Bins
+
+-------------------------------------------------------
+
+
+	Kruskal-Wallis rank sum test
+
+data:  mean_am_pathogenicity by Score_Bin
+Kruskal-Wallis chi-squared = 35.623, df = 3, p-value = 8.995e-08
+
+
+-------------------------------------------------------
+
+Kruskal-Wallis Test for DCopS (<2.5) Bins
+
+-------------------------------------------------------
+
+
+	Kruskal-Wallis rank sum test
+
+data:  mean_am_pathogenicity by Score_Bin
+Kruskal-Wallis chi-squared = 131.92, df = 3, p-value < 2.2e-16
+
+
+-------------------------------------------------------
+
+Kruskal-Wallis Test for RCS (<2.5) Bins
+
+-------------------------------------------------------
+
+
+	Kruskal-Wallis rank sum test
+
+data:  mean_am_pathogenicity by Score_Bin
+Kruskal-Wallis chi-squared = 37.743, df = 3, p-value = 3.204e-08
+
+
+-------------------------------------------------------
+
+Kruskal-Wallis Test for RCopS (<2.5) Bins
+
+-------------------------------------------------------
+
+
+	Kruskal-Wallis rank sum test
+
+data:  mean_am_pathogenicity by Score_Bin
+Kruskal-Wallis chi-squared = 26.717, df = 3, p-value = 6.75e-06
+
+
+=== Running Extreme Binned Analysis (< 0.5) ===
+
+
+-------------------------------------------------------
+
+Kruskal-Wallis Test for DCS (<0.5) Bins
+
+-------------------------------------------------------
+
+
+	Kruskal-Wallis rank sum test
+
+data:  mean_am_pathogenicity by Score_Bin
+Kruskal-Wallis chi-squared = 42.435, df = 3, p-value = 3.244e-09
+
+
+-------------------------------------------------------
+
+Kruskal-Wallis Test for DCopS (<0.5) Bins
+
+-------------------------------------------------------
+
+
+	Kruskal-Wallis rank sum test
+
+data:  mean_am_pathogenicity by Score_Bin
+Kruskal-Wallis chi-squared = 66.474, df = 3, p-value = 2.426e-14
+
+
+-------------------------------------------------------
+
+Kruskal-Wallis Test for RCS (<0.5) Bins
+
+-------------------------------------------------------
+
+
+	Kruskal-Wallis rank sum test
+
+data:  mean_am_pathogenicity by Score_Bin
+Kruskal-Wallis chi-squared = 2.3209, df = 3, p-value = 0.5085
+
+Warning message in wilcox.test.default(c(0.399368421052632, 0.126957894736842, 0.126957894736842, :
+“cannot compute exact p-value with ties”
+Warning message in wilcox.test.default(c(0.399368421052632, 0.126957894736842, 0.126957894736842, :
+“cannot compute exact p-value with ties”
+
+-------------------------------------------------------
+
+Kruskal-Wallis Test for RCopS (<0.5) Bins
+
+-------------------------------------------------------
+
+
+	Kruskal-Wallis rank sum test
+
+data:  mean_am_pathogenicity by Score_Bin
+Kruskal-Wallis chi-squared = 4.2768, df = 3, p-value = 0.2331
