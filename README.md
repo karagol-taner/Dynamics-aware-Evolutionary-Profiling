@@ -4,7 +4,7 @@ The identification of dynamic-conserved residues via the Dynamics-aware Evolutio
 
 This repository contains the source code and datasets for the large-scale statistical analysis presented in the manuscript. It encompasses the processing, scoring, and benchmarking of across two distinct cohorts.
 
-We also provide an open-access web interface, [_ADEPT_ (Automated Dynamics-aware Evolutionary Profiling Tool)](https://www.karagolresearch.com/adept), for researchers to apply this framework to their own proteins. [![Web Server](https://img.shields.io/badge/Web%20Server-ADEPT-blue)]((https://www.karagolresearch.com/adept)) [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+We also provide an open-access web interface, [_ADEPT_ (Automated Dynamics-aware Evolutionary Profiling Tool)](https://www.karagolresearch.com/adept), for researchers to apply this framework to their own proteins. [![Web Server](https://img.shields.io/badge/Web%20Server-ADEPT-blue)]((https://www.karagolresearch.com/adept)) [![Mirror Link](https://img.shields.io/badge/Mirror%20Link-ADEPT-orange)]((https://www.tanerkaragol.com/dynamics-aware-evolution)) [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 ## Citation
 If you use this framework in your research, please cite:
