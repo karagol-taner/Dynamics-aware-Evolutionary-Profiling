@@ -17,7 +17,7 @@ If you use this framework in your research, please cite:
 * ! Note: Due to the high volume of input data and the nature of partial correlation analysis, the runtime of the code may be lengthy. For faster results, we recommend using a CPU cluster.
 * **`data-alpha-helical/`**: Analysis containing analysis profiles for the cross-species cohort of 93 alpha-helical proteins.
 * **`data-human/`**: Analysis containing the targeted cohort of 58 human proteins (400–600 residues).
-* You can also check ur open-access web interface (_ADEPT_).
+* You can also check ur open-access web interface (_ADEPT_). https://www.karagolresearch.com/adept or https://www.tanerkaragol.com/dynamics-aware-evolution
 
 ## Abstract
 
